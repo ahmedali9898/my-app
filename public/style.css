@@ -1,22 +1,3 @@
-/* =============
- table of contents
-===============
-
-0. global styles
-1. ul class .flex
-      1.1 sub HTML + css + JavaScript
-      1.2 sub sub of CSS
-
-
-2. main & footer
-3. header of mobile
- 
-*/
-
-/* ===============
-   0. global style
-================ */
-
 * {
   margin: 0;
   padding: 0;
@@ -41,8 +22,17 @@ html {
   box-sizing: inherit;
 }
 
+#bac {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+
+
 header {
-  background-color: #1b1b1b;
+  background: rgb(0, 15, 36);
+  background: linear-gradient(90deg, rgba(0, 15, 36, 1) 0%, rgba(89, 9, 121, 1) 35%, rgba(123, 0, 255, 1) 100%);
+  ;
 }
 
 h1 {
@@ -74,14 +64,11 @@ h1 {
 }
 
 .main-link:hover {
-  color: cyan;
-  box-shadow: 0 0 5px cyan;
+  color: rgb(252, 104, 114);
+  box-shadow: 0 0 5px rgb(153, 114, 114);
   border-radius: 5px;
 }
 
-/* =======================================
-   1.1 sub HTML + css + JavaScript
-======================================== */
 
 .sub-ul {
   display: none;
@@ -147,7 +134,7 @@ h1 {
 /* ==================
     2. main & footer
 ===================== */
-main{
+main {
   color: #1b1b1b;
 
   height: calc(100vh - 128.64px);
@@ -159,13 +146,13 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   text-align: center;
 }
 
-footer{
-  background-color: #1b1b1b;
-
+footer {
+  background: rgb(0, 15, 36);
+  background: linear-gradient(90deg, rgba(0, 15, 36, 1) 0%, rgba(89, 9, 121, 1) 35%, rgba(123, 0, 255, 1) 100%);
   padding: 20px 0;
   text-align: center;
   font-size: 18px;
